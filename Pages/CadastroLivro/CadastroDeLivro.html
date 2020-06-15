@@ -10,7 +10,7 @@
                 <img src=""  />
                
                 <Link to ="/">
-               <button type="button">Voltar</button>
+               <a href="../Home/index.html"><button type="button">Voltar</button></a>
             </Link>
             </header>
             <form>
@@ -25,28 +25,31 @@
                           name="name"
                           id="name"
                           placeholder="Ex: Senhor dos Anéis"
+                          required="required"
                         >
                         </input>
                     </div>
                     <div class="field-group">
                         
                         <div class="field">
-                              <label name="email">Autor(a):</label>
+                              <label name="autor">Autor(a):</label>
                                 <input
-                                 type="email"
-                                name="email"
-                                id="email"
+                                 type="text"
+                                name="autor"
+                                id="autor"
                                 placeholder="Ex: J. R. R. Tolkien"
+                                required="required"
                                 >
                                 </input>
                         </div>
                         <div class="field">
-                            <label htmlFor="whatsapp">Editora:</label>
+                            <label name="editora">Editora:</label>
                             <input
                              type="text"
-                            name="whatsapp"
-                            id="whatsapp"
+                            name="editora"
+                            id="editora"
                             placeholder="Ex: Allen & Unwin"
+                            required="required"
                              >
                             </input>
                         </div>
@@ -57,20 +60,22 @@
                         <div class="field">
                               <label name="email">Edição:</label>
                                 <input
-                                 type="email"
-                                name="email"
-                                id="email"
+                                 type="text"
+                                name="edição"
+                                id="edicao"
                                 placeholder="Ex: Edição 1"
+                                required="required"
                                 >
                                 </input>
                         </div>
                         <div class="field">
-                            <label htmlFor="whatsapp">Ano de Publicaçaõ:</label>
+                            <label name="Ano">Ano de Publicaçaõ:</label>
                             <input
-                             type="text"
-                            name="whatsapp"
-                            id="whatsapp"
+                             type="number"
+                            name="ano"
+                            id="ano"
                             placeholder="Ex: 2018"
+                            required="required"
                              >
                             </input>
                         </div>
@@ -83,7 +88,7 @@
                         <textarea
                           type="text"                   
                           rows="10" cols="33"
-                          
+                          required="required"
                         >
                         </textarea>
                     
