@@ -6,11 +6,14 @@
     <title>Cadastro</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styless.css'>
-    <script src='main.js'></script>
+    <script>
+        var myJSON = JSON.stringify(("formu").serializeArray());
+        console.log(myJSON);
+    </script>
 </head>
 <body>
     <div id="page-create-point">
-        <form>
+        <form action="" method="POST" id="formu">
             <fieldset>
                 <legend>
                     <h1>Cadastro de Usuario</h1>
@@ -19,8 +22,8 @@
                     <label name="name" >Usuario:</label>
                     <input
                       type="text"
-                      name="name"
-                      id="name"
+                      name="nome"
+                      id="nome"
                     >
                     </input>
                 </div>
@@ -41,12 +44,11 @@
                 <div class="field-group">
                     
                     <div class="field">
-                          <label name="email">Senha:</label>
+                          <label name="senha">Senha:</label>
                             <input
-                             type="email"
-                            name="email"
-                            id="email"
-                           
+                             type="password"
+                            name="password"
+                            id="password" 
                             >
                             </input>
                     </div>  
@@ -54,5 +56,6 @@
             <button type="submit">
                 Cadastra-se
             </button>
+   
 </body>
 </html>

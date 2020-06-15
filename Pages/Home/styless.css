@@ -88,7 +88,6 @@ body{
   #page-create-point form .field input[type=text],
   #page-create-point form .field input[type=email],
   #page-create-point form .field input[type=number],
-  #page-create-point form .field input[type=password],
   #page-create-point form .field textarea[type=text] {
     flex: 1;
     background: #F0F0F5;
@@ -98,7 +97,6 @@ body{
     font-size: 16px;
     color: #6C6C80;
   }
-  
   
   #page-create-point form .field select {
     -webkit-appearance: none;
