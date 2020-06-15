@@ -5,7 +5,33 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Inicio</title>
     <link rel='stylesheet' type='text/css' media='screen' href='styless.css'>
+    <script> var jsonvar ={
+        text : "exemplo",
+        number: 1
+    }
+    var jsonStr = JSON.stringify(jsonVar);
+    document.getElementById("teste").innerHTML = jsonStr;
+     </script>
 </head>
 <body>
+    <div id="page-create-point">
+        <header>
+            <img src=""  />
+           
+            <Link to ="/">
+           <button type="button">Cadastrar Livros</button>
+        </Link>
+        </header>
+        <div>
+            <ul>
+                <li>
+                    Senhor Dos Anéis
+                </li>
+                <li>
+                    Harry Potter
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
